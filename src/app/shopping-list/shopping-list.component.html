@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <app-shopping-edit></app-shopping-edit>
+      <hr>
+      <ul class="list-group">
+        <a class="list-group-item cursor-pointer"  *ngFor="let ingredient of ingredients ">
+          <h5 class="col-6">{{ingredient.name}}</h5>
+          <h5 class="col-5">{{ingredient.amount}}</h5>
+        </a>
+      </ul>
+    </div>
+  </div>
+</div>

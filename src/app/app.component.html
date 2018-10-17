@@ -1,26 +1,18 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<header>
+  <nav class="nav navbar-nav">
+      <app-header></app-header>
+  </nav>
+</header>
+<hr>
 
-<div class="badge badge-danger col-12">
-  <h1 class="text-center">
-    Welcome {{ title }}!
-    <br>
-    {{title}} Your id is {{id}}
-  </h1>
-  
-  <input type="text" class="form-control" [(ngModel)]="name"/>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <p class="">{{ name }}!</p>
-      <hr>
-    </div>
-  </div>
-
-</div>
 <div class="container">
   <div class="row">
   <div class="col-12">
+     
+   <recipes-component></recipes-component>
+   <hr>
+   <app-shopping-list></app-shopping-list>
    
   </div>
 </div>
