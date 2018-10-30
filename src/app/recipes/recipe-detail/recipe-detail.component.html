@@ -1,15 +1,15 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <img src="" alt="" class="img-fluid"/>
+            <img [src]="recipe.imagePath" alt="{{recipe.name}}" style="max-height:140px;" class="img-fluid"/>
         </div>
     </div>
     <div class="row">
             <div class="col-12">
-                <h1>Recipe Name</h1>
+                <h1>{{recipe.name}}</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row"> 
                 <div class="col-12">
                     <div class="btn-group">
                         <button class="btn btn-primary dropdown-toggle">Manage Recipe </button>
@@ -23,7 +23,7 @@
             </div>
             <div class="row">
                     <div class="col-12">
-                        Descriptions
+                       {{recipe.description}}
                     </div>
                 </div>
                 <div class="row">
