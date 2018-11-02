@@ -1,12 +1,12 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <app-shopping-edit></app-shopping-edit>
+      <app-shopping-edit (ingredientAdded)="onIngredientAdded($event)"></app-shopping-edit>
       <hr>
       <ul class="list-group">
         <a class="list-group-item cursor-pointer"  *ngFor="let ingredient of ingredients ">
-          <h5 class="col-6 d-inline">{{ingredient.name}}</h5>
-          <h5 class="col-5 d-inline">{{ingredient.amount}}</h5>
+          <h6 class="col-6 px-0 d-inline">{{ingredient.name}}</h6>
+          <h6 class="col-5 d-inline">{{ingredient.amount}}</h6>
         </a>
       </ul>
     </div>
