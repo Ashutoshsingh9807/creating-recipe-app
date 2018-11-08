@@ -1,0 +1,13 @@
+.container {
+  margin-top: 30px;
+}
+.odd {
+  color: red;
+  border-bottom: 1px solid #000;
+  box-shadow: 1px 1px 1px red;
+}
+.even {
+  color: white;
+  border-bottom: 1px solid #000;
+  box-shadow: 1px 1px 1px green;
+}
