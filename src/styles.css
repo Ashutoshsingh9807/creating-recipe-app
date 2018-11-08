@@ -5,3 +5,13 @@ button:disabled {
 .show .dropdown-menu {
     display: block;
 }
+.dropdown-menu li a {
+padding-left: 10px;
+}
+ a:hover {
+   text-decoration: none;
+}
+.drop-head {
+    left: auto;
+    right: 0;
+}
