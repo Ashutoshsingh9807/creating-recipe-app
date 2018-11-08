@@ -2,3 +2,6 @@
 button:disabled {
     cursor: not-allowed;
 }
+.show .dropdown-menu {
+    display: block;
+}
