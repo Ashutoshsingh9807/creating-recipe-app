@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-5">
-            <recipe-list-component (recipeWasSelected)="selectedRecipe = $event"></recipe-list-component>
+            <recipe-list-component></recipe-list-component>
         </div>
         <div class="col-sm-7">
            <recipe-detail-component *ngIf="selectedRecipe; else infotext" [recipe]="selectedRecipe"></recipe-detail-component>
