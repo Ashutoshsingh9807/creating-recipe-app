@@ -4,7 +4,7 @@
       <app-shopping-edit></app-shopping-edit>
       <hr>
       <ul class="list-group">
-        <a class="list-group-item cursor-pointer"  *ngFor="let ingredient of ingredients ">
+        <a class="list-group-item cursor-pointer list-item-hover"  *ngFor="let ingredient of ingredients; let i = index" (click)="onEditItem(i)">
           <h6 class="col-6 px-0 d-inline">{{ingredient.name}}</h6>
           <h6 class="col-5 d-inline">{{ingredient.amount}}</h6>
         </a>

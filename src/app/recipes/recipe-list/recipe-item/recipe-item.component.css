@@ -1,0 +1,6 @@
+.lists:hover, .list-item-hover:hover {
+    background-color: rgba(240, 240, 240, 0.76);
+}
+.lists.active:hover {
+    background-color: #007bff;
+}

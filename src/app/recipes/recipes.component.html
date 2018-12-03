@@ -4,10 +4,11 @@
             <recipe-list-component></recipe-list-component>
         </div>
         <div class="col-sm-7">
-           <recipe-detail-component *ngIf="selectedRecipe; else infotext" [recipe]="selectedRecipe"></recipe-detail-component>
+           <!-- <recipe-detail-component *ngIf="selectedRecipe; else infotext" [recipe]="selectedRecipe"></recipe-detail-component>
            <ng-template #infotext>
                 <p>Please select recipe</p>
-           </ng-template>
+           </ng-template> -->
+           <router-outlet></router-outlet>
         </div> 
     </div>
 </div>

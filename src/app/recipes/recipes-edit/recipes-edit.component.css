@@ -1,0 +1,9 @@
+.mt-10 {
+    margin-top: 10px;
+}
+.btn {
+    margin-right: 10px;
+}
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
+    border: 1px solid red;
+} 

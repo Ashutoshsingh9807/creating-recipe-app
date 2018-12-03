@@ -18,3 +18,6 @@ padding-left: 10px;
 .cursor-pointer {
     cursor: pointer;
 }
+.mb-10 {
+ margin-bottom: 10px!important;
+} 
